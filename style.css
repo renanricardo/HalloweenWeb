@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Pixelada2';
+    src: url('fonts/Pixelada2.eot');
+    src: url('fonts/Pixelada2.eot') format('embedded-opentype'),
+         url('fonts/Pixelada2.woff2') format('woff2'),
+         url('fonts/Pixelada2.woff') format('woff'),
+         url('fonts/Pixelada2.ttf') format('truetype'),
+         url('fonts/Pixelada2.svg#Pixelada2') format('svg');
+}
+
+body{
+	
+	line-height: 0.7;
+	background-color: #000;
+	font-family: "Pixelada2";
+	font-size: 130px;
+	color: #fff;
+  text-align: center;
+	
+}
+
+textarea{
+  background: white;
+  color: rgb(61, 61, 61);
+  border: 2px solid whitesmoke;
+  border-radius: .3rem;
+  padding: 0.5rem;
+  padding-left: 15rem;
+  min-height: 1rem;
+  caret-color: orangered;
+  resize: none;
+  font-size: 4rem;
+  font-family: 'Pixelada2';
+}
+
+.btn{
+  background: #422a13;
+  color: rgb(231, 231, 231);
+  border: 5px solid #422a13;
+  border-radius: 100%;
+  font-family: 'Pixelada2';
+  font-size: 80px;
+  
+  
+}
+
+div.retangulo {
+  margin-left:476;
+  margin-bottom: -10;
+  line-height:0;
+  width:0px;
+  height:20px;
+  border: 5px solid #422a13;
+  position: static;
+  }
+
+.borda {
+	color:#fff; 
+	text-shadow:#FF0000 3px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+	font-size: 130px;
+	
+}
+
+.slidein {
+  -moz-animation-duration: 60s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 6s;
+  -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+  animation-name: slidein;
+  -moz-animation-iteration-count: 60;
+  -webkit-animation-iteration-count: 60;
+  animation-iteration-count: 60;
+  -moz-animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+.saved{
+  text-align: center;
+  padding-top: 9rem;
+}
+
+.right {
+	border: 10px solid green;
+}
+.wrong {
+	border: 1px solid red;
+}
+   
+@-moz-keyframes slidein {
+  from {
+    margin-right:5;
+    width:200;
+  }
+      
+  to {
+    margin-right:0%;
+    width:200;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-right:5%;
+    width:200
+  }
+  
+  to {
+   margin-right:0%;
+   width:200;
+ }
+}
+
+@keyframes slidein {
+  from {
+    margin-right:5%;
+    width:200
+  }
+  
+  to {
+   margin-right:0%;
+   width:200;
+ }
+
+}
